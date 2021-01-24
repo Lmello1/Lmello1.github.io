@@ -92,6 +92,11 @@ nav button span {
   background-color:#59c98b;
   border-radius:5px
 }
+
+a#icon {
+  display: hidden;
+}
+
 @media (max-width: 768px) {
   nav ul.navbar-menu {
     display: none;
@@ -99,6 +104,18 @@ nav button span {
 
   nav button {
     display: block;
+  }
+
+  a.resume {
+    display: none;
+  }
+  
+  li {
+    display: none;
+  }
+
+  a#brand {
+    display: none;
   }
 }
   .loader-wrapper {

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.scss" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="index.js"></script> 
+  </head>
+  <body>
+    <nav>
+        <div class="container">
+          <a href="#" id="brand">Text</a>
+          <button>
+            <li><a href="#">01. About</a></li>
+            <li><a href="#">02. Experiance</a></li>
+            <li><a href="#">03. Platforms</a></li>
+            <li><a href="#">04. Contact</a></li>
+            <li><a href="#" class="resume">Resume</a></li>
+          </button>
+          
+          <ul class="navbar-menu">
+            <li><a href="#">01. About</a></li>
+            <li><a href="#">02. Experiance</a></li>
+            <li><a href="#">03. Platforms</a></li>
+            <li><a href="#">04. Contact</a></li>
+            <li><a href="#" class="resume">Resume</a></li>
+          </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 class=nameintro>Hi, my name is</h2>
+    <h1 class=name>Landon Mello</h1>
+    <p class=nameplate>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum dui ac nibh viverra accumsan. Aenean maximus erat nec mauris elementum, convallis aliquam diam mattis. Fusce nisi tellus, porta nec lobortis vel, vestibulum id eros. Vivamus in orci enim. Phasellus aliquet fermentum dignissim. Nullam venenatis elit in odio luctus, a faucibus justo porta. Etiam euismod turpis vel enim rhoncus bibendum. Etiam sed sodales neque. Vestibulum accumsan hendrerit ligula, nec aliquam leo mattis sit amet. Suspendisse condimentum sem nisl, a tempus metus placerat id. Integer eu pharetra ligula, tincidunt pulvinar sem. Cras quis arcu a orci pellentesque rutrum. Suspendisse at felis pharetra ipsum convallis sodales congue vel erat. Mauris luctus justo risus, eget suscipit lorem ultricies id.</p>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+  </body>
+</html>
